@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CYVANT TECH SOLUTIONS — Employee Portal</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+
+  <body>
+
+    <div class="page-wrapper">
+
+      <div class="login-card">
+
+        <div class="brand-header">
+          <h1 class="company-name">CYVANT</h1>
+          <p class="company-subtitle">TECH SOLUTIONS</p>
+          <p class="portal-label">Employee Secure Portal</p>
+        </div>
+
+        <form id="loginForm" novalidate>
+
+          <div class="input-group">
+            <label for="email">Corporate Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@cyvanttech.com"
+              autocomplete="off"
+              required
+            />
+          </div>
+
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              autocomplete="off"
+              required
+            />
+          </div>
+
+          <button type="submit" id="loginBtn">
+            Sign In to Portal
+          </button>
+
+        </form>
+
+        <div class="card-footer">
+          <a href="#">Forgot your password?</a>
+          <span class="separator">|</span>
+          <a href="#">IT Support</a>
+        </div>
+
+      </div>
+
+      <p class="legal-footer">
+        &copy; 2024 Cyvant Tech Solutions. All rights reserved. 
+        Unauthorized access is prohibited and monitored.
+      </p>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CYVANT TECH SOLUTIONS — Security Awareness Quiz</title>
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+
+<body>
+
+  <div class="quiz-header">
+    <div class="header-brand">
+      <h1 class="brand-name">CYVANT</h1>
+      <p class="brand-sub">TECH SOLUTIONS</p>
+    </div>
+    <div class="header-label">
+      <span class="quiz-badge">🛡️ Security Awareness Quiz</span>
+    </div>
+  </div>
+
+  <div class="page-wrapper">
+
+    <div class="intro-card">
+      <div class="intro-icon">🎯</div>
+      <h2 class="intro-title">Phishing Awareness Quiz</h2>
+      <p class="intro-desc">
+        Test your knowledge of phishing threats and cybersecurity best 
+        practices. This quiz contains 5 questions. Read each one carefully 
+        before selecting your answer.
+      </p>
+      <div class="quiz-meta">
+        <span>📋 5 Questions</span>
+        <span>⏱️ No Time Limit</span>
+        <span>🎯 Instant Feedback</span>
+      </div>
+    </div>
+
+    <div class="quiz-container">
+
+      <div class="progress-section">
+        <div class="progress-text">
+          <span id="questionCounter">Question 1 of 5</span>
+          <span id="scoreTracker">Score: 0</span>
+        </div>
+        <div class="progress-bar-wrapper">
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+      </div>
+
+      <div class="question-card" id="questionCard">
+
+        <p class="question-text" id="questionText">
+          Loading question...
+        </p>
+
+        <div class="options-grid" id="optionsGrid">
+          <button class="option-btn" id="option0"></button>
+          <button class="option-btn" id="option1"></button>
+          <button class="option-btn" id="option2"></button>
+          <button class="option-btn" id="option3"></button>
+        </div>
+
+        <div class="feedback-box" id="feedbackBox">
+          <p id="feedbackText"></p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="score-screen" id="scoreScreen">
+
+      <div class="score-icon" id="scoreIcon">🏆</div>
+      <h2 class="score-title">Quiz Complete!</h2>
+      <p class="score-subtitle">Here are your results</p>
+
+      <div class="score-display">
+        <span class="score-number" id="finalScore">0</span>
+        <span class="score-total">/ 5</span>
+      </div>
+
+      <p class="score-message" id="scoreMessage"></p>
+
+      <div class="score-actions">
+        <button class="restart-btn" id="restartBtn">
+          🔄 Retake Quiz
+        </button>
+        <a href="awareness.html" class="awareness-btn">
+          📚 Review Awareness Guide
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="quiz.js"></script>
+  
+</body>
+</html>
