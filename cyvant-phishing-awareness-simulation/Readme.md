@@ -57,3 +57,20 @@ Through this project I gained hands-on experience with:
 This project was developed strictly for educational purposes. No credentials were stored, transmitted, or collected. All logging functionality was limited to local browser-based simulation metrics.
 The objective of the project is security awareness training and cybersecurity education.
 
+## Screenshots
+
+### Login Portal
+
+![Login Portal](Login-page.png.png)
+
+### Awareness Page
+
+![Awareness Page](awareness-page.png.png)
+
+### Cybersecurity
+
+![Cybersecurity](Cybersecurity.png)
+
+### Deployment
+
+![Deployment](deployment.png.png)
